@@ -12,6 +12,8 @@ git config --global user.email --- to provide email given while we creating GitH
 git remote -v --------- it will display the remote repository details (Github)
 git remote add <alias name of repo> <GitHub repo link>
 git push <GitHub alias name> <main/master>
+git show --pretty="" <commit id> -- to show the info of the file which we committed with given commit id
+git show --pretty="" --name-only <commit id>  --- it will display the file name of given commit id
 
 
 
