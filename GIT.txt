@@ -1,0 +1,18 @@
+GIT Commands
+
+git --version / git -v ----  to check git version
+git init to initialise the git and make it as working env
+git add * to add all files (except hidden files) to staging area
+git add . to add all files including hidden files to staging area
+git commit -m "Giving Message"  -- to move all the files and data in staging area to local repository 
+git commit -am "Giving Message" -- to move the modified files in working directory to local repo without sending to staging area.
+git config --global --list --- to list the git user information 
+git config --global user.name  --- to provide git username
+git config --global user.email --- to provide email given while we creating GitHub account
+git remote -v --------- it will display the remote repository details (Github)
+git remote add <alias name of repo> <GitHub repo link>
+git push <GitHub alias name> <main/master>
+
+
+
+ 
