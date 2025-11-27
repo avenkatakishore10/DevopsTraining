@@ -14,7 +14,10 @@ git remote add <alias name of repo> <GitHub repo link>
 git push <GitHub alias name> <main/master>
 git show --pretty="" <commit id> -- to show the info of the file which we committed with given commit id
 git show --pretty="" --name-only <commit id>  --- it will display the file name of given commit id
-
+git log   -- will show all the commit details
+git log --oneline  -- will show all commits in short form.
+git clean -n  --- it will show whateverfile will get delete 
+git clean -f  --- it will clean the files in unstaged area
 
 
  
